@@ -1,0 +1,14 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #3949ab;
+}
+a {
+    cursor: pointer;
+}
