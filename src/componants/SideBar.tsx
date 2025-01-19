@@ -14,10 +14,10 @@ function SideBar() {
           <a className="nav-link text-white"  onClick={() => handelPage('/')}>Game earn point</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white"  onClick={() => handelPage('/about')}>About</a>
+          <a className="nav-link text-white"  onClick={() => handelPage('/winning-the-memory-game')} >Wining game</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">Menu gauche 3</a>
+          <a className="nav-link text-white"  onClick={() => handelPage('/about')}>About</a>
         </li>
       </ul>
     </nav>

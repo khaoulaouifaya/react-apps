@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SideBar from "./componants/side-bar";
+import SideBar from "./componants/SideBar";
 import Counter from "./componants/Counter";
 import About from "./componants/About";
+import WiningGame from "./componants/WiningGame";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Counter />} />
               <Route path="/about" element={<About />} />
+              <Route path="/winning-the-memory-game" element={<WiningGame />} />
             </Routes>
           </main>
         </div>

@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    margin: 0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.game-container {
+    padding: 20px;
+    background: linear-gradient(145deg, #ffcf33, #f90aff);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark {
+    background-color: #222;
+    border: none;
+    font-weight: bold;
+}
+
+.stats {
+    font-size: 1rem;
+}
+
+.card-grid {
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+}
+
+.text-center {
+margin-left: 35%;
+}
+
+.card {
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
